@@ -1,0 +1,3 @@
+The SARS-CoV-2 membrane glycoprotein was selected due to its crucial role in viral assembly and interaction with the host immune system. Membrane proteins are often exposed to immune surveillance, making them suitable targets for vaccine design.
+
+The sequence was retrieved from the NCBI protein database in FASTA format and used as input for further computational analysis.
