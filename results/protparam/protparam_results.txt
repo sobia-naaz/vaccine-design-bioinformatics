@@ -1,8 +1,9 @@
 The ProtParam tool is a widely used bioinformatics utility available on the ExPASy server. It analyzes a given protein sequence (in FASTA format) and computes its physicochemical properties based purely on the amino acid composition.
 
-🔬 What is ProtParam Tool?ProtParam is an in silico (computational) tool that takes a protein sequence as input and provides quantitative insights such as molecular weight, stability, and hydrophobicity without needing lab experiments.
+**🔬 What is ProtParam Tool?**
+ProtParam is an in silico (computational) tool that takes a protein sequence as input and provides quantitative insights such as molecular weight, stability, and hydrophobicity without needing lab experiments.
 
-🎯 Why Do We Use ProtParam?
+**🎯 Why Do We Use ProtParam?**
 
 ProtParam is used to quickly understand the basic biochemical nature of a protein, especially in early-stage research.
 
@@ -16,56 +17,59 @@ Understanding structure–function relationships
 For example:
 If a protein is predicted to be unstable → it may degrade quickly in lab conditions → affects cloning or expression experiments.
 
-⚙️ Criteria / Parameters Calculated by ProtParam
+**⚙️ Criteria / Parameters Calculated by ProtParam**
 
 These are the main outputs (very important for exams + reports):
 
 1. Molecular Weight
 Total mass of the protein (in Daltons)
 Helps in SDS-PAGE analysis
+
 2. Theoretical Isoelectric Point (pI)
 pH at which protein has no net charge
 Useful for:
 Protein purification (isoelectric focusing)
+
 3. Amino Acid Composition
 Frequency of each amino acid
 Helps identify:
 Hydrophobic vs hydrophilic nature
+
 4. Atomic Composition
 Number of C, H, N, O, S atoms
 Useful for molecular formula estimation
+
 5. Extinction Coefficient
 Indicates how much light protein absorbs at 280 nm
 Important for:
 Protein quantification (UV spectroscopy)
+
 6. Instability Index
 Predicts protein stability:
 < 40 → Stable
 > 40 → Unstable
+
 7. Aliphatic Index
 Measures volume occupied by aliphatic side chains
 Higher value → more thermostable protein
+
 8. Grand Average of Hydropathicity (GRAVY)
 Indicates hydrophobic/hydrophilic nature:
 Positive → Hydrophobic
 Negative → Hydrophilic
+
 9. Half-life Prediction
 Estimated time protein survives in:
 Mammalian cells
 Yeast
 Bacteria
-
-                                                                    
-🧠 In Simple Words
-
+                                                                   
+**🧠 In Simple Words**
 ProtParam answers:
-
 “From just the sequence, what kind of protein is this?”
 
-📌 When Should You Use ProtParam?
- 
+**📌 When Should You Use ProtParam?**
 Use it when:
-
 You have a FASTA sequence
 You want quick insights without lab work
 You are doing:
@@ -73,7 +77,7 @@ Bioinformatics projects
 Protein analysis reports
 Drug target studies
 
-🚫 Limitations (Important for exams)
+**🚫 Limitations (Important for exams)**
 No structural prediction
 No post-translational modification analysis
 Assumes protein is in ideal conditions
