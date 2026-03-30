@@ -1,0 +1,90 @@
+🔬 What is VaxiJen?
+VaxiJen is an alignment-independent antigen prediction tool used in immunoinformatics to identify whether a protein is likely to be an antigen (i.e., capable of inducing an immune response).
+It is hosted on the VaxiJen Server and is widely used in reverse vaccinology for vaccine design.
+
+🎯 Why Do We Use VaxiJen?
+VaxiJen helps researchers screen proteins quickly to find potential vaccine candidates without performing lab experiments.
+
+Key Uses:
+Identify protective antigens from pathogens
+Select proteins for vaccine development
+Reduce time and cost of experimental screening
+Prioritize candidates in bioinformatics pipelines
+
+👉 Example:
+If you have 100 pathogen proteins → VaxiJen helps shortlist those most likely to trigger immunity.
+
+⚙️ How Does VaxiJen Work? (Core Principle)
+🔑 Alignment-Free Approach
+Unlike tools like BLAST, VaxiJen does not compare sequences.
+Instead, it uses:
+➤ Auto Cross Covariance (ACC) Transformation
+Converts protein sequences into numerical vectors
+Based on physicochemical properties of amino acids
+(hydrophobicity, size, polarity, etc.)
+➤ Machine Learning Model
+Uses trained datasets of:
+Known antigens
+Non-antigens
+Classifies input protein as:
+Antigen
+Non-antigen
+📊 Input Requirements
+Protein sequence in FASTA format
+Select target organism model:
+Bacteria
+Virus
+Parasite
+Tumor
+
+📈 Output of VaxiJen
+1. Prediction Score
+Numerical value (e.g., 0.65, 0.80)
+2. Classification
+Antigen or Non-antigen
+📌 Threshold Criteria (Very Important)
+Model Type	Default Threshold
+Bacteria	0.4
+Virus	0.4
+Parasite	0.5
+Tumor	0.5
+Interpretation:
+Score ≥ threshold → Antigen
+Score < threshold → Non-antigen
+
+👉 Example:
+Score = 0.62 (virus model) → Predicted Antigen
+
+🧪 Key Features
+Alignment-independent (fast)
+No need for sequence similarity
+Works on novel proteins
+High accuracy (~70–89% depending on dataset)
+Easy web interface
+
+🔄 Workflow in Research (Important for Reports)
+Retrieve protein sequence (FASTA)
+Analyze with ProtParam (basic properties)
+Run VaxiJen → antigen prediction
+Select antigenic proteins
+Further analysis:
+Epitope prediction
+Allergenicity check
+Toxicity prediction
+
+⚠️ Limitations
+Does not predict epitopes (only whole protein antigenicity)
+Accuracy depends on training dataset
+Cannot replace experimental validation
+Limited organism models
+
+🧠 In Simple Words
+VaxiJen tells you:
+“Is this protein likely to trigger an immune response?”
+
+📌 When Should You Use VaxiJen?
+Use it when:
+You are working on vaccine design projects
+You have multiple protein sequences
+You want fast antigen screening
+You are doing bioinformatics or immunoinformatics studies
