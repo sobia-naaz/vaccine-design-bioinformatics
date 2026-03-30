@@ -4,7 +4,6 @@ The ProtParam tool is a widely used bioinformatics utility available on the ExPA
 ProtParam is an in silico (computational) tool that takes a protein sequence as input and provides quantitative insights such as molecular weight, stability, and hydrophobicity without needing lab experiments.
 
 **🎯 Why Do We Use ProtParam?**
-
 ProtParam is used to quickly understand the basic biochemical nature of a protein, especially in early-stage research.
 
 Key purposes:
@@ -18,7 +17,6 @@ For example:
 If a protein is predicted to be unstable → it may degrade quickly in lab conditions → affects cloning or expression experiments.
 
 **⚙️ Criteria / Parameters Calculated by ProtParam**
-
 These are the main outputs (very important for exams + reports):
 
 1. Molecular Weight
