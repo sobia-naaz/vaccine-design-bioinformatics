@@ -1,15 +1,14 @@
-🧬 ChouFasman_Vaccine — Secondary Structure Analysis for Vaccine Design
-
+**🧬 ChouFasman_Vaccine — Secondary Structure Analysis for Vaccine Design**
 This project focuses on the application of the Chou–Fasman secondary structure prediction method to analyze protein sequences for vaccine design purposes. The tool predicts structural elements such as α-helices, β-sheets, and coil/turn regions based on amino acid propensities.
-
 In this study, the predicted secondary structure was utilized to identify potential B-cell epitope regions, with particular emphasis on coil and turn regions, as these are typically surface-exposed and immunologically accessible. The analysis helps in selecting structurally favorable regions for designing stable and effective vaccine candidates.
 
-🎯 Objectives
+**🎯 Objectives**
 Predict protein secondary structure using Chou–Fasman method
 Identify structurally flexible regions (coil/turns)
 Support epitope selection for vaccine design
 Integrate structural insights into immunoinformatics workflow
-⚙️ Methodology
+
+**⚙️ Methodology**
 Input protein sequence in FASTA format
 Perform secondary structure prediction using Chou–Fasman server
 Analyze distribution of:
@@ -19,15 +18,15 @@ turns (T)
 coils (C)
 Identify epitope-prone regions (coil/turns)
 Interpret results in the context of vaccine design
-🧠 Key Insight
 
+**🧠 Key Insight**
 Coil and turn regions were prioritized for epitope selection due to their flexibility and surface accessibility, making them ideal targets for immune recognition.
 
-🚀 Applications
+**🚀 Applications**
 Reverse vaccinology
 Epitope-based vaccine design
 Structural bioinformatics analysis
 Immunoinformatics pipelines
-📌 Conclusion
 
+**📌 Conclusion**
 The Chou–Fasman method provides valuable preliminary insights into protein structure, enabling the identification of immunologically relevant regions that can be used in designing safe, stable, and effective vaccines.
