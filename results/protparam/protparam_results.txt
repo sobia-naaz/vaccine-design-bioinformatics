@@ -1,0 +1,67 @@
+Number of amino acids: 222
+Theoretical pI: 9.51
+Molecular weight: 25146.62
+
+Amino acid composition: 
+Ala (A)  19	  8.6%
+Arg (R)  14	  6.3%
+Asn (N)  11	  5.0%
+Asp (D)   6	  2.7%
+Cys (C)   4	  1.8%
+Gln (Q)   4	  1.8%
+Glu (E)   7	  3.2%
+Gly (G)  14	  6.3%
+His (H)   5	  2.3%
+Ile (I)  20	  9.0%
+Leu (L)  35	 15.8%
+Lys (K)   7	  3.2%
+Met (M)   4	  1.8%
+Phe (F)  11	  5.0%
+Pro (P)   5	  2.3%
+Ser (S)  15	  6.8%
+Thr (T)  13	  5.9%
+Trp (W)   7	  3.2%
+Tyr (Y)   9	  4.1%
+Val (V)  12	  5.4%
+Pyl (O)   0	  0.0%
+Sec (U)   0	  0.0%
+
+ (B)   0	  0.0%
+ (Z)   0	  0.0%
+ (X)   0	  0.0%
+
+Total number of negatively charged residues (Asp + Glu): 13
+Total number of positively charged residues (Arg + Lys): 21
+
+Atomic composition:
+Carbon      C	      1165
+Hydrogen    H	      1823
+Nitrogen    N	       303
+Oxygen      O	       301
+Sulfur      S	         8
+
+Formula: C1165H1823N303O301S8
+Total number of atoms: 3600
+
+Extinction coefficients:
+Extinction coefficients are in units of  M-1 cm-1, at 280 nm measured in water.
+Ext. coefficient    52160
+Abs 0.1% (=1 g/l)   2.074, assuming all pairs of Cys residues form cystines
+
+
+
+Ext. coefficient    51910
+Abs 0.1% (=1 g/l)   2.064, assuming all Cys residues are reduced
+
+Estimated half-life:
+The N-terminal of the sequence considered is M (Met).
+The estimated half-life is: 30 hours (mammalian reticulocytes, in vitro).
+                            >20 hours (yeast, in vivo).
+                            >10 hours (Escherichia coli, in vivo).
+
+Instability index:
+The instability index (II) is computed to be 39.14
+This classifies the protein as stable.
+
+Aliphatic index: 120.86
+Grand average of hydropathicity (GRAVY):0.446
