@@ -1,0 +1,81 @@
+🔬 What is AllerTOP?
+
+AllerTOP is an alignment-free bioinformatics tool used to predict whether a protein is an allergen or a non-allergen.
+
+It is available via the AllerTOP Server and is widely used in immunoinformatics and vaccine design pipelines.
+
+🎯 Why Do We Use AllerTOP?
+
+In vaccine and drug design, it is critical to ensure that candidate proteins do not trigger allergic reactions.
+
+Key Uses:
+Identify allergenic proteins
+Filter out unsafe vaccine candidates
+Improve safety profile of vaccines
+Support immunoinformatics workflows
+
+👉 Example:
+After selecting antigenic proteins using VaxiJen → AllerTOP is used to ensure they are non-allergenic.
+
+⚙️ How Does AllerTOP Work?
+🔑 Alignment-Free Method
+Does not rely on sequence similarity (no BLAST)
+Suitable for analyzing novel proteins
+➤ E-descriptors (Key Concept)
+
+Each amino acid is described using 5 physicochemical properties:
+
+Hydrophobicity
+Molecular size
+Helix-forming ability
+Relative abundance
+β-strand forming tendency
+➤ Auto Cross Covariance (ACC)
+Converts protein sequence into a fixed-length numerical vector
+➤ Machine Learning Algorithm
+Uses k-Nearest Neighbor (kNN) classification
+Trained on:
+Known allergens
+Known non-allergens
+📊 Input Requirements
+Protein sequence in FASTA format
+📈 Output of AllerTOP
+1. Prediction Result
+Allergen
+Non-allergen
+2. No Numerical Threshold
+Unlike VaxiJen, AllerTOP gives direct classification, not a score
+🔄 Workflow in Bioinformatics (Very Important)
+
+Typical pipeline:
+
+Protein sequence retrieval
+ProtParam → physicochemical analysis
+VaxiJen → antigenicity prediction
+AllerTOP → allergenicity check
+Select proteins that are:
+Antigenic
+Non-allergenic
+🧪 Key Features
+Alignment-independent
+Fast and easy to use
+Based on physicochemical properties
+Suitable for large-scale screening
+Accuracy ~85–90%
+⚠️ Limitations
+Does not provide probability score
+Cannot identify specific allergenic epitopes
+Limited by training dataset
+Requires experimental validation
+🧠 In Simple Words
+
+AllerTOP answers:
+“Will this protein cause an allergic reaction or not?”
+
+📌 When Should You Use AllerTOP?
+
+Use it when:
+
+You are designing vaccines
+You want to ensure protein safety
+You are filtering candidates in reverse vaccinology
