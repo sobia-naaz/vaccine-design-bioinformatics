@@ -1,0 +1,9 @@
+TMHMM Analysis
+
+TMHMM (TransMembrane Helix prediction using Hidden Markov Models) was used to identify transmembrane regions and predict the topology of the SARS-CoV-2 membrane glycoprotein.
+
+This analysis helps distinguish between membrane-spanning and surface-exposed regions of the protein. In vaccine design, only extracellular or surface-accessible regions are suitable for epitope selection, as they can be recognized by the host immune system.
+
+The TMHMM results confirmed the presence of transmembrane segments and were used to ensure that selected epitopes are located in accessible, non-transmembrane regions. The analysis is further refined by filtering out undesired hydrophobic membrane-embedded regions and focusing exclusively on fragments that are biologically safe and effective for triggering an immune response.
+
+This step improves the reliability of epitope selection by validating their biological accessibility.
