@@ -1,0 +1,29 @@
+## B-cell Epitope Prediction and Analysis
+
+B-cell epitope prediction was performed to identify linear epitopes capable of inducing antibody-mediated immune responses. These epitopes are typically located on the surface of proteins and are recognized directly by B-cell receptors.
+
+### Process
+
+The protein sequence was analyzed using a B-cell epitope prediction tool (such as BepiPred). The tool identified potential linear epitopes based on sequence properties and antigenicity scores.
+
+### Selection Criteria
+
+Predicted epitopes were evaluated based on:
+
+* High antigenicity score
+* Surface accessibility
+* Hydrophilicity
+* Non-allergenicity
+* Non-toxicity
+
+### Purpose
+
+The purpose of this step is to identify regions of the protein that can stimulate humoral immunity by generating antibodies. These epitopes are important for vaccine design but are not directly used in molecular docking studies.
+
+### Important Note
+
+Unlike MHC-I epitopes, B-cell epitopes do not bind to MHC molecules. Therefore, they are not used in docking with MHC structures such as 2A0Z.
+
+### Conclusion
+
+The predicted B-cell epitopes provide valuable insight into antibody-target regions of the protein and complement the overall vaccine design strategy.

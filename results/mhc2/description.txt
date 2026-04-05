@@ -1,0 +1,29 @@
+## MHC-II Epitope Prediction and Analysis
+
+MHC-II epitope prediction was carried out to identify helper T lymphocyte (HTL) epitopes from the SARS-CoV-2 membrane glycoprotein. These epitopes are responsible for activating CD4+ T cells and supporting the adaptive immune response.
+
+### Process
+
+The protein sequence was analyzed using an MHC-II binding prediction tool. The output included predicted epitopes along with IC50 values, percentile rank, antigenicity, allergenicity, and toxicity information.
+
+### Selection Criteria
+
+The following filters were applied to identify suitable epitopes:
+
+* Low IC50 value
+* Low percentile rank
+* Antigenicity: ANTIGEN
+* Allergenicity: NON-ALLERGEN
+* Toxicity: NON-TOXIN
+
+### Observations
+
+Although several epitopes showed acceptable binding affinity, many were predicted to be allergenic or non-antigenic. This significantly reduced the number of suitable candidates.
+
+### Purpose
+
+The purpose of this step is to identify helper T-cell epitopes that enhance immune response coordination. However, only biologically safe and immunogenic epitopes are considered for further analysis.
+
+### Conclusion
+
+Due to the lack of epitopes meeting all selection criteria, MHC-II epitopes were not prioritized for downstream molecular docking studies in this project.

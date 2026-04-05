@@ -1,0 +1,28 @@
+## MHC-I Epitope Prediction and Analysis
+
+MHC-I epitope prediction was performed using immunoinformatics tools to identify cytotoxic T lymphocyte (CTL) epitopes from the SARS-CoV-2 membrane glycoprotein. These epitopes play a crucial role in cellular immune response by binding to MHC class I molecules and activating CD8+ T cells.
+
+### Process
+
+The protein sequence was submitted to an MHC-I binding prediction tool (such as IEDB). The output provided multiple candidate epitopes along with parameters including IC50 values, percentile rank, antigenicity, allergenicity, and toxicity.
+
+### Selection Criteria
+
+To refine the results, the following criteria were applied:
+
+* Low IC50 value (indicating strong binding affinity)
+* Low percentile rank
+* Antigenicity: ANTIGEN
+* Allergenicity: NON-ALLERGEN
+* Toxicity: NON-TOXIN
+
+Based on these filters, high-confidence epitopes such as **ATSRTLSYYK** and **FASYRSYRI** were selected.
+
+### Purpose
+
+The purpose of this step is to identify potent CTL epitopes that can effectively bind to MHC-I molecules and trigger a strong cellular immune response. These selected epitopes are further used for structural modeling and molecular docking studies.
+
+### Conclusion
+
+The filtered epitopes represent strong candidates for vaccine design due to their high binding affinity, immunogenicity, and safety profile.
+
