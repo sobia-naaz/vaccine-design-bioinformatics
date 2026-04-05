@@ -1,0 +1,9 @@
+trRosetta Analysis
+
+trRosetta is a deep learning-based protein structure prediction tool used to model the three-dimensional (3D) structure of proteins from their amino acid sequences. It predicts inter-residue distances and orientations, enabling accurate reconstruction of protein folding and spatial conformation.
+
+In this study, trRosetta was used to generate the 3D structure of the SARS-CoV-2 membrane glycoprotein. This structural insight is important for understanding the overall organization of the protein and provides a framework for visualizing epitope locations.
+
+The predicted structure helps validate whether selected epitopes are positioned in accessible and structurally stable regions of the protein. By integrating structural information, the analysis is refined beyond sequence-based predictions, ensuring that selected regions are not only antigenic but also structurally feasible for immune recognition.
+
+Thus, trRosetta serves as a supporting structural validation step, enhancing the reliability of epitope selection and contributing to a more comprehensive immunoinformatics-based vaccine design pipeline.
