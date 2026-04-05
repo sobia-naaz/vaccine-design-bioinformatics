@@ -1,0 +1,79 @@
+## Epitope Selection Strategy and Docking Justification
+
+### Selection of MHC-I over MHC-II Epitopes
+
+In this study, both MHC-I and MHC-II epitopes were predicted from the SARS-CoV-2 membrane glycoprotein. However, after applying stringent filtering criteria (antigenicity, allergenicity, toxicity, IC50, and rank), MHC-II epitopes were not found to be suitable for downstream analysis.
+
+Most of the predicted MHC-II epitopes were either:
+
+* Allergenic
+* Non-antigenic
+* Or did not meet binding affinity thresholds
+
+Due to the lack of biologically safe and immunogenic candidates, MHC-II epitopes were excluded from further structural and docking analysis.
+
+In contrast, MHC-I epitopes showed strong binding affinity, were non-allergenic, non-toxic, and antigenic. Therefore, MHC-I epitopes were selected as reliable candidates for vaccine design and further computational analysis.
+
+---
+
+### Selection of Top 2 Epitopes
+
+From the filtered MHC-I dataset, two epitopes were selected:
+
+* **ATSRTLSYYK**
+* **FASYRSYRI**
+
+These epitopes were chosen based on:
+
+* Lowest IC50 values (strong binding affinity)
+* Favorable percentile rank
+* Antigenicity (ANTIGEN)
+* Non-allergenicity
+* Non-toxicity
+
+Selecting the top two epitopes allows focused and efficient downstream analysis, reduces computational complexity, and highlights the most promising vaccine candidates.
+
+---
+
+### Why Only Two (2) Epitopes?
+
+Instead of selecting all predicted epitopes, only the top candidates were chosen because:
+
+* Not all predicted epitopes are biologically relevant
+* Including low-quality epitopes reduces prediction accuracy
+* Docking multiple peptides increases noise and complexity
+
+Thus, selecting a small number of high-confidence epitopes ensures precision and reliability in molecular docking and vaccine design.
+
+---
+
+### Selection of 2A0Z for Molecular Docking
+
+The PDB structure **2A0Z** was selected as the docking receptor because it represents a well-characterized human MHC class I molecule (HLA-A*02:01), which is widely used in immunoinformatics studies.
+
+Reasons for selecting 2A0Z:
+
+* High-resolution crystal structure
+* Represents a common and well-studied HLA allele
+* Frequently used as a standard model for peptide-MHC docking
+* Structurally stable and suitable for computational analysis
+
+Even though HLA-A*02:01 may not explicitly appear in the predicted allele list, it is commonly used as a reference structure due to its availability and reliability in docking studies.
+
+---
+
+### Purpose of Docking
+
+The selected MHC-I epitopes were docked with the 2A0Z structure to:
+
+* Evaluate binding interactions
+* Analyze peptide-MHC stability
+* Validate immunogenic potential at the structural level
+
+This step provides structural confirmation that the selected epitopes can effectively bind to MHC molecules and trigger an immune response.
+
+---
+
+### Conclusion
+
+The study prioritizes MHC-I epitopes due to their strong immunological relevance and reliable prediction results. By selecting high-confidence epitopes and a validated MHC structure (2A0Z), the analysis ensures accuracy, biological relevance, and robustness in the vaccine design pipeline.
